@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termini e Condizioni - Pieno Conveniente</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        strong { color: #111; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Termini e Condizioni di Utilizzo per Pieno Conveniente</h1>
+    <p><strong>Ultimo aggiornamento:</strong> 23 Ottobre 2026</p>
+
+    <p>I presenti Termini e Condizioni si applicano all'applicazione mobile Pieno Conveniente e a tutti i servizi correlati gestiti da <strong>Gino Spezzano</strong> (collettivamente denominati "Applicazione" o "Servizio"). Gino Spezzano viene di seguito indicato come il "Fornitore del Servizio".</p>
+    
+    <p>Scaricando o utilizzando l'Applicazione, l'utente accetta implicitamente i presenti Termini e Condizioni. Si prega di leggerli attentamente prima di utilizzare l'Applicazione.</p>
+
+    <h2>1. Licenza d'Uso dell'Applicazione</h2>
+    <p>A condizione che l'utente rispetti i presenti Termini, il Fornitore del Servizio concede una licenza limitata, non esclusiva, non trasferibile e revocabile per installare e utilizzare l'Applicazione su un dispositivo mobile esclusivamente per uso personale e non commerciale. È severamente vietato riprodurre, distribuire, modificare, decodificare, decompilare o disassemblare l'Applicazione, tranne nei casi espressamente consentiti dalla legge applicabile.</p>
+
+    <h2>2. Proprietà Intellettuale</h2>
+    <p>Il Fornitore del Servizio detiene tutti i diritti di proprietà intellettuale sull'Applicazione, inclusi il codice sorgente, il design, i marchi, i loghi e il branding ("IP"). Nulla nei presenti Termini concede all'utente il diritto di utilizzare i marchi o i loghi del Fornitore del Servizio per qualsiasi scopo. È vietato rimuovere o alterare qualsiasi avviso di copyright o proprietà presente nell'Applicazione.</p>
+
+    <h2>3. Fonte dei Dati e Limitazione di Responsabilità (MIMIT)</h2>
+    <p>I dati relativi all'anagrafica dei distributori e ai prezzi dei carburanti mostrati all'interno dell'Applicazione provengono dai dataset ufficiali messi a disposizione pubblicamente su base quotidiana dal <strong>Ministero delle Imprese e del Made in Italy (MIMIT)</strong>, rilasciati sotto licenza <strong>Italian Open Data License (IODL 2.0)</strong>.</p>
+    <p><strong>Esclusione di garanzia:</strong> Il Fornitore del Servizio rielabora e mostra tali dati a puro scopo informativo e non è in alcun modo responsabile per eventuali inesattezze, errori, omissioni o ritardi nell'aggiornamento dei prezzi causati dai gestori degli impianti o da disservizi telematici del Ministero. L'utente utilizza le informazioni fornite dall'Applicazione a proprio rischio e si impegna a verificare sempre il prezzo reale praticato alla pompa prima di effettuare il rifornimento. Il Fornitore del Servizio non si assume alcuna responsabilità per decisioni economiche, perdite o disagi derivanti da discrepanze tra i prezzi indicati nell'App e quelli reali.</p>
+
+    <h2>4. Limiti di Età e Requisiti Legali</h2>
+    <p>Accedendo e utilizzando questa Applicazione, l'utente dichiara di essere legalmente autorizzato a farlo nella propria giurisdizione. L'utente deve avere almeno 16 anni (l'età del consenso digitale standard in Europa) per utilizzare l'Applicazione. Se l'utente ha un'età inferiore ai 16 anni, un genitore o un tutore legale deve verificare e accettare i presenti Termini per suo conto.</p>
+
+    <h2>5. Servizi di Terze Parti e Connessione Rete</h2>
+    <p>Alcune funzioni dell'Applicazione (come l'aggiornamento dei prezzi in tempo reale e la sincronizzazione dei preferiti) richiedono una connessione Internet attiva (Wi-Fi o rete dati mobile). Il Fornitore del Servizio non può essere ritenuto responsabile se l'Applicazione non funziona correttamente a causa della mancanza di connettività o del superamento del piano dati dell'utente. L'utilizzo dell'app sotto rete mobile potrebbe comportare costi di traffico dati in base alle tariffe del proprio operatore telefonico, che rimangono a totale carico dell'utente.</p>
+    <p>L'app integra servizi di terze parti che regolano autonomamente le proprie condizioni commerciali. L'utente accetta i relativi termini d'uso:</p>
+    <ul>
+        <li><a href="https://google.com" target="_blank" rel="noopener noreferrer">Termini di Servizio di Google AdMob</a></li>
+    </ul>
+
+    <h2>6. Modifiche al Servizio e Funzionalità Premium</h2>
+    <p>Il Fornitore del Servizio si riserva il diritto di modificare l'Applicazione, aggiornarne le funzionalità o interrompere il supporto per le versioni precedenti in qualsiasi momento per motivi tecnici o di sicurezza. Il Fornitore del Servizio si riserva inoltre il diritto di introdurre funzionalità a pagamento (come lo sblocco della versione Premium a 0,99€ o l'accesso a statistiche avanzate tramite visualizzazione di annunci pubblicitari), che verranno sempre comunicate in modo chiaro e trasparente all'utente prima dell'acquisto.</p>
+
+    <h2>7. Risoluzione e Interruzione del Servizio</h2>
+    <p>Il Fornitore del Servizio può sospendere o interrompere l'accesso dell'utente all'Applicazione immediatamente e senza preavviso in caso di violazione dei presenti Termini, violazione di leggi applicabili o attività dannose per la sicurezza del server (inclusi tentativi di bypassare i limiti di traffico o effettuare scraping del database). In caso di interruzione, tutti i diritti concessi all'utente cesseranno e l'utente dovrà rimuovere l'Applicazione dal proprio dispositivo.</p>
+
+    <h2>8. Legge Applicabile e Foro Competente</h2>
+    <p>I presenti Termini e Condizioni sono regolati e interpretati in conformità con le leggi della Repubblica Italiana. Qualsiasi controversia derivante da o in relazione all'uso dell'Applicazione sarà sottoposta alla giurisdizione esclusiva dei tribunali italiani competenti, fatti salvi i diritti inderogabili previsti dal Codice del Consumo per gli utenti che agiscono in qualità di consumatori.</p>
+
+    <h2>9. Contatti</h2>
+    <p>Per qualsiasi domanda, suggerimento o segnalazione riguardante i presenti Termini e Condizioni, è possibile contattare il Fornitore del Servizio ai seguenti recapiti:</p>
+    <ul>
+        <li><strong>Sviluppatore:</strong> Gino Spezzano</li>
+        <li><strong>Email:</strong> lordkorost@gmail.com</li>
+        <li><strong>Indirizzo:</strong> Via A. Da Messina 17, 87064, Corigliano-Rossano, Cosenza, Italia</li>
+    </ul>
+
+</body>
+</html>
