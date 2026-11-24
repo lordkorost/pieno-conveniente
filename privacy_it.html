@@ -17,20 +17,19 @@
 <h3>2.1 Informazioni Fornite dall'Utente</h3>
 <ul>
     <li><strong>Accesso con Account Google:</strong> L'accesso tramite Account Google è l'unica modalità di registrazione e autenticazione prevista. Se effettui l'accesso, tramite i servizi di Supabase Auth riceviamo e raccogliamo le informazioni del tuo profilo Google, nello specifico il tuo indirizzo Email e l'identificativo univoco del tuo account Google.</li>
-    <li><strong>Preferenze Utente (Utenti Loggati):</strong> Se sei un utente registrato, salviamo la lista delle tue stazioni di servizio preferite e il tuo stato di acquisto della versione "Full" per sincronizzarli tra i tuoi dispositivi tramite il nostro database backend.</li>
+    <li><strong>Preferenze Utente (Utenti registrati):</strong> Se sei un utente registrato, salviamo la lista delle tue stazioni di servizio preferite per sincronizzarli tra i tuoi dispositivi tramite il nostro database backend.</li>
 </ul>
 
 <h3>2.2 Informazioni Raccolte Automaticamente</h3>
 <ul>
     <li><strong>Dati di Posizione:</strong> Utilizziamo il GPS del tuo dispositivo per rilevare la tua posizione al fine di trovare e mostrare le stazioni di servizio più vicine. Questi dati vengono raccolti in modo non continuo (solo quando apri l'App o aggiorni manualmente la lista). I dati di posizione sono elaborati localmente e non vengono tracciati continuamente né memorizzati in modo permanente sui nostri server.</li>
-    <li><strong>Informazioni sul Dispositivo (ID dispositivo):</strong> Generiamo un identificativo casuale (UUID) memorizzato localmente sul tuo dispositivo. Questo identificativo viene inviato al nostro database ed è utilizzato esclusivamente per gestire i limiti di traffico delle API (rate limiting) e garantire la sicurezza del servizio, impedendo abusi o attacchi informatici. Il trattamento di questo dato si basa sul nostro <strong>Legittimo Interesse</strong> (Art. 6, par. 1, lett. f del GDPR) volto a garantire la sicurezza della rete e dell'informazione.</li>
-    <li><strong>Dati di Utilizzo:</strong> Raccogliamo dati di base e tecnici su come interagisci con l'App, come i timestamp delle richieste API, al solo scopo di applicare le regole di rate limiting.</li>
+    <li><strong>Informazioni sul Dispositivo:</strong> L'App utilizza un identificativo pseudonimo associato al dispositivo, trattato per finalità di sicurezza, prevenzione degli abusi e gestione dei limiti di utilizzo dei servizi (rate limiting). Il trattamento di questo dato si basa sul nostro <strong></strong>Legittimo Interesse</strong> (Art. 6, par. 1, lett. f del GDPR), volto a garantire la sicurezza e il corretto funzionamento del servizio.</li>
 </ul>
 
 <h3>2.3 Informazioni da Terze Parti</h3>
 <ul>
     <li><strong>Database Supabase:</strong> Scarichiamo i dati sui prezzi dei carburanti dal database Supabase all'interno del database SQLite locale del dispositivo.</li>
-    <li><strong>Google Play Store:</strong> Riceviamo le conferme di acquisto e le ricevute digitali quando decidi di acquistare la versione "Full" dell'applicazione.</li>
+
 </ul>
 
 <h2>3. Come Utilizziamo le Tue Informazioni</h2>
@@ -39,34 +38,30 @@
     <li>Autenticare il tuo account e gestire il tuo profilo utente.</li>
     <li>Salvare e sincronizzare la lista dei tuoi distributori preferiti tra più dispositivi.</li>
     <li>Garantire la sicurezza dell'App e prevenire abusi del server tramite controlli automatizzati di rate limiting.</li>
-    <li>Mostrare annunci pubblicitari (tramite AdMob) nella versione gratuita dell'applicazione.</li>
 </ul>
 
 <h2>4. Condivisione dei Dati e Servizi di Terze Parti</h2>
 <ul>
     <li><strong>Supabase:</strong> Utilizziamo Supabase come backend per memorizzare l'identificativo utente, la lista delle stazioni preferite e i log temporanei di sicurezza (rate limit).</li>
-    <li><strong>Google Play Store:</strong> Utilizziamo i servizi ufficiali di Google Play per l'elaborazione dei pagamenti e la verifica delle ricevute d'acquisto per la versione "Full".</li>
-    <li><strong>AdMob:</strong> Nella versione gratuita mostriamo annunci pubblicitari tramite AdMob, che potrebbe raccogliere ID pubblicitari del dispositivo e dati di utilizzo per mostrare annunci pertinenti, previo tuo consenso fornito tramite l'apposito banner regolamentare.</li>
 </ul>
 
 <h2>5. Conservazione dei Dati e Istruzioni per la Cancellazione</h2>
 <ul>
     <li><strong>Dati di Posizione:</strong> Non vengono mai memorizzati sui nostri server. Esistono solo temporaneamente nella memoria volatile del dispositivo durante la ricerca.</li>
     <li><strong>Dati di Rate Limiting:</strong> I log relativi alle richieste temporanee dei dispositivi vengono cancellati automaticamente dai nostri server <strong>ogni ora</strong>.</li>
-    <li><strong>Informazioni sul Dispositivo (ID in tabella):</strong> Gli identificativi dei dispositivi inattivi (che non effettuano richieste all'App) vengono cancellati definitivamente dai nostri server <strong>dopo 2 mesi di inattività</strong>.</li>
+    <li><strong>Informazioni sul Dispositivo:</strong>L'identificativo utilizzato per finalità di sicurezza e prevenzione degli abusi viene conservato indipendentemente dall'esistenza di un account utente. Pertanto, l'eliminazione dell'account non comporta automaticamente la cancellazione di tale identificativo. Gli identificativi dei dispositivi inattivi vengono cancellati definitivamente dai nostri server dopo 2 mesi di inattività.</strong>.</li>
     <li><strong>Dati Utente Registrato:</strong> Le informazioni del tuo profilo e la lista delle stazioni di servizio preferite vengono conservate finché hai un account attivo.</li>
     <li><strong>Come Cancellare i Tuoi Dati:</strong> In conformità con il GDPR e le linee guida degli store, puoi richiedere la cancellazione completa del tuo account e di tutti i dati associati in qualsiasi momento direttamente all'interno dell'App, tramite l'opzione <strong>"Elimina Account"</strong> nel menu delle impostazioni. Questa azione eliminerà immediatamente dal nostro database il tuo profilo Google, la tua email e i tuoi preferiti. L'app verrà disconnessa e tornerà in modalità "Ospite".
-    <br><em>Nota sugli acquisti:</em> Se hai acquistato la versione "Full", l'eliminazione dell'account rimuoverà l'associazione dal nostro database, ma potrai ripristinare il tuo acquisto in qualsiasi momento (anche su un nuovo account) utilizzando la funzione "Ripristina Acquisti", poiché la ricevuta rimane memorizzata in modo sicuro sul tuo account Google Play Store. Se preferisci, puoi richiedere la cancellazione anche contattando lo Sviluppatore via email all'indirizzo <a href="mailto:lordkorost@gmail.com">lordkorost@gmail.com</a> (la richiesta scritta sarà elaborata entro 7 giorni).</li>
-</ul>
+   </ul>
 
 <h2>6. Sicurezza dei Dati</h2>
 <p>Implementiamo misure di sicurezza tecniche e organizzative per proteggere le tue informazioni da accessi non autorizzati, divulgazione o distruzione. Queste misure includono la crittografia dei dati in transito (HTTPS) e politiche rigide di accesso sicuro al database backend.</p>
 
 <h2>7. I Tuoi Diritti (GDPR)</h2>
-<p>Ai sensi del GDPR, hai il diritto di accedere, correggere, ricevere in formato portabile o richiedere la cancellazione dei tuoi dati personali. Puoi esercitare il controllo sui tuoi dati personali effettuando la cancellazione autonoma dall'app. Per quanto riguarda il tracciamento pubblicitario opzionale (AdMob), puoi gestire o revocare le tue preferenze in qualsiasi momento tramite il banner di consenso presente nelle impostazioni dell'app.</p>
+<p>Ai sensi del GDPR, hai il diritto di accedere, correggere, ricevere in formato portabile o richiedere la cancellazione dei tuoi dati personali. Puoi esercitare il controllo sui tuoi dati personali effettuando la cancellazione autonoma dall'app.</p>
 
 <h2>8. Privacy dei Minori</h2>
-<p>La nostra App non si rivolge consapevolmente a minori di età inferiore ai 13 anni. Se dovessimo accorgerci di aver raccolto dati personali di un minore di 13 anni senza il consenso dei genitori, adotteremo le misure immediate per cancellare tali informazioni dai nostri server.</p>
+<p>La nostra App non si rivolge consapevolmente a minori di età inferiore ai 13 anni. Se dovessimo accorgerci di aver raccolto dati personali di un minore di 14 anni senza il consenso dei genitori, adotteremo le misure immediate per cancellare tali informazioni dai nostri server.</p>
 
 <h2>9. Modifiche a Questa Informativa sulla Privacy</h2>
 <p>Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto per riflettere modifiche tecniche o requisiti normativi. Ti informeremo di eventuali modifiche significative pubblicando la nuova Informativa sulla Privacy all'interno di questa schermata o con una notifica nell'App.</p>
