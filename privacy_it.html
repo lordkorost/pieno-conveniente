@@ -2,153 +2,135 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informativa sulla Privacy - Pieno Conveniente</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.25rem; color: #111827; }
+        h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.75rem; color: #111827; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; }
+        p { margin-bottom: 1rem; }
+        ul { margin-bottom: 1rem; padding-left: 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+        .date { color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
 
-Informativa sulla Privacy di Pieno Conveniente
+    <h1>Informativa sulla Privacy di Pieno Conveniente</h1>
+    <p class="date"><strong>Data di decorrenza:</strong> 26 novembre 2026</p>
+
+    <h2>1. Introduzione</h2>
+    <p>Benvenuto su <strong>Pieno Conveniente</strong>. L'Applicazione consente di consultare i prezzi dei carburanti e individuare le stazioni di servizio in Italia, utilizzando dati pubblici ufficiali, infrastrutture gestite dal Titolare e servizi di terze parti, anche in modalità offline. Questa Informativa sulla Privacy descrive come Pieno Conveniente (di seguito, l'"App") tratta i dati personali degli utenti. L'App è sviluppata e gestita da Gino Spezzano (di seguito, il "Titolare").</p>
+    <p>La presente informativa illustra le categorie di dati trattati, le finalità e le modalità del trattamento, i soggetti che possono ricevere i dati e i diritti riconosciuti agli utenti dalla normativa applicabile in materia di protezione dei dati personali.</p>
+
+    <h2>2. Titolare del trattamento dei dati personali</h2>
+    <p>Il Titolare del trattamento dei dati personali è <strong>Gino Spezzano</strong>, sviluppatore e gestore dell'applicazione Pieno Conveniente.</p>
+    <p>Per qualsiasi richiesta relativa al trattamento dei dati personali o per esercitare i diritti previsti dalla normativa vigente, è possibile contattare il Titolare ai seguenti recapiti:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:pienoconveniente@spezzano.net">pienoconveniente@spezzano.net</a></li>
+        <li><strong>Indirizzo:</strong> Via A. Da Messina 17, 87064, Corigliano-Rossano, Cosenza, Italia</li>
+    </ul>
+
+    <h2>3. Oggetto del trattamento</h2>
+    <p>Il Titolare tratta esclusivamente le informazioni necessarie per fornire e gestire le funzionalità dell'App. I dati e le informazioni trattati possono comprendere, a seconda delle funzionalità utilizzate:</p>
+    <ul>
+        <li><strong>Dati dell'account:</strong> informazioni ricevute da Google tramite il servizio di autenticazione, quali indirizzo email, nome, identificativo del provider e immagine del profilo, ove disponibile, oltre all'identificativo univoco dell'account creato dal servizio di autenticazione.</li>
+        <li><strong>Dati relativi ai preferiti:</strong> identificativi degli impianti di distribuzione carburante (<code>id_impianti</code>) selezionati dagli utenti autenticati per la sincronizzazione tra dispositivi.</li>
+        <li><strong>Dati di localizzazione:</strong> coordinate geografiche fornite dal dispositivo dell'utente (o posizione selezionata manualmente) utilizzate per individuare l'area geografica di riferimento e scaricare o consultare i dati degli impianti presenti nella zona.</li>
+        <li><strong>Dati tecnici dell'installazione:</strong> identificativo pseudonimo dell'installazione e informazioni tecniche di rete (incluso l'indirizzo IP) necessarie al funzionamento dell'App, al download dei pacchetti dati aggiornati e alla protezione delle API.</li>
+        <li><strong>Dati relativi alle notifiche:</strong> token tecnico di registrazione del dispositivo (Firebase Cloud Messaging) necessario per gestire e consegnare le notifiche informative attivate dall'utente.</li>
+        <li><strong>Dati forniti tramite feedback e richieste di supporto:</strong> contenuto dei messaggi, eventuale indirizzo email di contatto e, per le richieste di supporto, informazioni tecniche quali versione dell'App, sistema operativo, modello del dispositivo e recenti errori tecnici.</li>
+    </ul>
+    <p>Le coordinate geografiche vengono utilizzate esclusivamente per le richieste di ricerca e verifica geografica e non vengono memorizzate nelle tabelle del database dell'applicazione. L'identificativo pseudonimo utilizzato per la gestione delle richieste tecniche non è associato all'account Google dell'utente.</p>
+
+    <h2>4. Modalità del trattamento</h2>
+    <p>I dati personali sono trattati mediante strumenti informatici e telematici, con modalità organizzative e logiche strettamente correlate alle finalità indicate nella presente informativa. L'App adotta un'architettura orientata alla minimizzazione: i dati scaricati relativi agli impianti della zona vengono salvati localmente sul dispositivo per consentirne la consultazione anche in assenza di connessione internet.</p>
+    <p>Il trattamento viene effettuato nel rispetto dei principi di liceità, correttezza, trasparenza, minimizzazione e limitazione della conservazione previsti dal Regolamento (UE) 2016/679 (GDPR). Il Titolare adotta misure tecniche e organizzative adeguate a proteggere i dati personali da accessi non autorizzati, perdita, divulgazione, modifica o distruzione accidentale.</p>
+
+    <h2>5. Finalità e base giuridica del trattamento</h2>
+    <p>I dati e le informazioni trattati sono utilizzati esclusivamente per le seguenti finalità:</p>
+    <ul>
+        <li><strong>Funzionamento dell'applicazione e consultazione offline:</strong> consentire il download sul dispositivo dei dati aggiornati dei prezzi e delle stazioni di servizio della zona dai server del Titolare per la consultazione online e offline.</li>
+        <li><strong>Consultazione diretta in tempo reale (opzionale):</strong> qualora l'utente attivi l'apposita opzione nelle impostazioni e disponga di connessione internet, interrogare direttamente le API pubbliche ufficiali del MIMIT per visualizzare i dati aggiornati in tempo reale.</li>
+        <li><strong>Gestione dell'account:</strong> consentire la registrazione e l'autenticazione tramite Google e gestire le funzionalità associate all'account.</li>
+        <li><strong>Gestione dei preferiti:</strong> consentire agli utenti autenticati di salvare e sincronizzare gli identificativi degli impianti di distribuzione selezionati.</li>
+        <li><strong>Ricerca geografica:</strong> utilizzare le coordinate fornite dall'utente per verificare l'area geografica e ottenere informazioni relative agli impianti presenti nella zona richiesta.</li>
+        <li><strong>Gestione delle notifiche:</strong> inviare agli utenti che hanno attivato il servizio notifiche comunicazioni informative relative all'aggiornamento dei prezzi e delle medie dei carburanti.</li>
+        <li><strong>Assistenza e feedback:</strong> ricevere e gestire segnalazioni, suggerimenti e richieste di supporto, utilizzando le informazioni fornite dall'utente e, quando necessario, i dati tecnici allegati alla segnalazione.</li>
+        <li><strong>Sicurezza e corretto funzionamento:</strong> prevenire utilizzi impropri dell'App, limitare le richieste eccessive (rate limiting) e garantire la disponibilità e la sicurezza dell'infrastruttura.</li>
+        <li><strong>Adempimento di obblighi di legge:</strong> adempiere agli obblighi previsti dalla normativa applicabile e tutelare i diritti del Titolare.</li>
+    </ul>
+    <p>Il trattamento dei dati necessari alla fornitura delle funzionalità richieste si basa sull'esecuzione del servizio richiesto dall'utente (art. 6, par. 1, lett. b, GDPR). I trattamenti connessi alla sicurezza e alla prevenzione degli utilizzi impropri si basano sul legittimo interesse del Titolare (art. 6, par. 1, lett. f, GDPR). Quando una funzionalità richiede un'autorizzazione di sistema (es. accesso alla posizione GPS o invio di notifiche push), il trattamento avviene sulla base del consenso dell'utente, revocabile in qualsiasi momento dalle impostazioni del dispositivo o dell'App.</p>
+    <p>L'applicazione non utilizza i dati degli utenti per finalità di marketing, pubblicità comportamentale o profilazione commerciale.</p>
+
+    <h2>6. Luogo del trattamento dei dati</h2>
+    <p>I dati personali trattati attraverso l'applicazione sono gestiti mediante infrastrutture informatiche del Titolare e di fornitori esterni che erogano servizi necessari al funzionamento dell'App.</p>
+    <p>Il database principale dell'applicazione è ospitato su <strong>Supabase</strong>, nella regione europea <strong>eu-west-3 (Parigi, Francia)</strong>.</p>
+    <p>Altri servizi esterni utilizzati dall'App possono trattare dati secondo le rispettive infrastrutture e condizioni. Qualora si verifichino trasferimenti di dati personali verso Paesi situati al di fuori dello Spazio Economico Europeo (SEE), questi avverranno nel rispetto delle garanzie previste dal Capo V del Regolamento (UE) 2016/679 (quali decisioni di adeguatezza della Commissione Europea o Clausole Contrattuali Tipo).</p>
+
+    <h2>7. Comunicazione e diffusione dei dati</h2>
+    <p>I dati personali non vengono venduti né diffusi dal Titolare per finalità commerciali. Per consentire il funzionamento dell'applicazione, alcuni dati tecnici o di account possono essere comunicati a fornitori esterni di servizi tecnologici e infrastrutturali, nei limiti strettamente necessari all'erogazione delle funzionalità richieste:</p>
+    <ul>
+        <li><strong>Server del Titolare:</strong> per l'erogazione dei pacchetti di dati geografici e dei prezzi aggiornati delle stazioni di servizio.</li>
+        <li><strong>Google:</strong> per consentire l'autenticazione tramite account Google.</li>
+        <li><strong>Supabase:</strong> per la gestione dell'autenticazione, l'archiviazione dei dati dell'account e la sincronizzazione degli identificativi degli impianti preferiti.</li>
+        <li><strong>Firebase Cloud Messaging (Google):</strong> per la gestione e la consegna delle notifiche informative tramite token tecnico del dispositivo.</li>
+        <li><strong>OpenFreeMap e OpenStreetMap:</strong> per la visualizzazione delle mappe e l'utilizzo dei dati cartografici.</li>
+        <li><strong>Nominatim:</strong> per le funzionalità di ricerca geografica e geocodifica degli indirizzi.</li>
+        <li><strong>MIMIT (Ministero delle Imprese e del Made in Italy):</strong> per la consultazione diretta dei dati pubblici relativi ai prezzi dei carburanti e agli impianti di distribuzione, quando l'utente attiva la modalità di interrogazione diretta in tempo reale dal proprio dispositivo.</li>
+    </ul>
+    <p>L'utilizzo di tali servizi comporta la trasmissione delle informazioni tecniche strettamente necessarie alla connessione (incluso l'indirizzo IP del dispositivo) e, quando richiesto dalla funzionalità, delle coordinate geografiche o dei termini di ricerca inseriti dall'utente. I fornitori esterni trattano i dati secondo le proprie condizioni e informative privacy, in qualità di responsabili del trattamento o titolari autonomi.</p>
+
+    <h2>8. Conseguenze del rifiuto del conferimento dei dati</h2>
+    <p>Il conferimento dei dati personali è facoltativo, ma necessario nei casi in cui tali dati siano indispensabili per fornire specifiche funzionalità:</p>
+    <ul>
+        <li><strong>Posizione geografica:</strong> l'autorizzazione all'accesso alla posizione del dispositivo consente all'App di individuare automaticamente gli impianti nelle vicinanze. Il mancato rilascio o la revoca di tale autorizzazione non impedisce l'utilizzo dell'App tramite selezione manuale dell'area sulla mappa o ricerca per indirizzo.</li>
+        <li><strong>Account Google e sincronizzazione:</strong> l'App è utilizzabile liberamente in modalità ospite senza registrazione. Il mancato conferimento dei dati di autenticazione comporta unicamente l'impossibilità di sincronizzare gli impianti preferiti su cloud.</li>
+        <li><strong>Supporto:</strong> il conferimento di un indirizzo email nelle richieste di supporto è facoltativo; la sua omissione non limita l'uso dell'App ma impedisce al Titolare di inviare una risposta diretta.</li>
+    </ul>
+
+    <h2>9. Diritti dell'interessato</h2>
+    <p>In qualità di interessato, l'utente può esercitare i diritti previsti dagli articoli 15-22 del Regolamento (UE) 2016/679 (GDPR), nei limiti e alle condizioni stabiliti dalla normativa vigente. In particolare, l'utente ha il diritto di:</p>
+    <ul>
+        <li>ottenere conferma che sia o meno in corso un trattamento di dati personali che lo riguardano e, in tal caso, accedere ai dati e riceverne copia;</li>
+        <li>ottenere la rettifica dei dati personali inesatti o l'integrazione di quelli incompleti;</li>
+        <li>richiedere la cancellazione dei dati personali, nei casi previsti dalla normativa;</li>
+        <li>richiedere la limitazione del trattamento, nei casi previsti;</li>
+        <li>ricevere i dati personali forniti al Titolare in un formato strutturato, di uso comune e leggibile da dispositivo automatico, ove applicabile, e richiederne la trasmissione a un altro titolare;</li>
+        <li>opporsi al trattamento dei dati personali, nei casi previsti dalla normativa;</li>
+        <li>revocare il consenso eventualmente prestato, senza pregiudicare la liceità del trattamento effettuato prima della revoca.</li>
+    </ul>
+    <p>L'utente ha inoltre il diritto di proporre reclamo all'Autorità Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>), qualora ritenga che il trattamento dei dati che lo riguardano violi la normativa vigente.</p>
+    <p>Per esercitare i propri diritti o richiedere informazioni sul trattamento, l'utente può contattare il Titolare all'indirizzo email <a href="mailto:pienoconveniente@spezzano.net">pienoconveniente@spezzano.net</a>. Il Titolare fornirà riscontro senza ingiustificato ritardo e, comunque, entro un mese dal ricevimento (prorogabile di due mesi in caso di particolare complessità, previa comunicazione all'interessato). L'esercizio dei diritti è gratuito, salvo i casi previsti dall'articolo 12 del GDPR.</p>
+
+    <h2>10. Durata del trattamento e cancellazione dell'account</h2>
+    <p>I dati personali sono trattati e conservati per il tempo strettamente necessario al conseguimento delle finalità per cui sono stati raccolti:</p>
+    <ul>
+        <li><strong>Dati dell'account e preferiti:</strong> vengono conservati fino alla richiesta di cancellazione da parte dell'utente. L'utente può eliminare autonomamente e immediatamente il proprio account direttamente dall'App tramite l'apposito pulsante di cancellazione dati nelle impostazioni, oppure seguire la procedura indicata alla pagina <a href="https://lordkorost.github.io/pieno-conveniente/cancellazione_account.html">Cancellazione dell'Account</a> o scrivendo a <a href="mailto:pienoconveniente@spezzano.net">pienoconveniente@spezzano.net</a>. La cancellazione comporta la revoca dell'autorizzazione dell'account Google, l'eliminazione dell'account dal database Supabase e la rimozione definitiva degli identificativi degli impianti preferiti associati; l'App effettua quindi la disconnessione e consente di proseguire l'utilizzo in modalità ospite.</li>
+        <li><strong>Messaggi di feedback e richieste di supporto:</strong> sono conservati per il tempo necessario alla gestione della segnalazione e cancellati entro <strong>3 mesi</strong> dalla data di invio.</li>
+        <li><strong>Dati tecnici di sicurezza e funzionamento:</strong> i log tecnici pseudonimi sono conservati per il tempo strettamente necessario a prevenire utilizzi impropri, proteggere l'infrastruttura e garantire la corretta erogazione del servizio.</li>
+        <li><strong>Dati di localizzazione:</strong> le coordinate utilizzate per le richieste geografiche non vengono memorizzate nelle tabelle del database dell'App. Possono tuttavia essere trattate temporaneamente dai servizi esterni coinvolti nelle richieste, secondo le rispettive politiche di conservazione.</li>
+    </ul>
+    <p>Eventuali dati che debbano essere conservati per adempiere a obblighi di legge o per accertare, esercitare o difendere un diritto in sede giudiziaria saranno mantenuti per il periodo previsto dalla normativa applicabile.</p>
+
+    <h2>11. Trattamento dei dati dei minori</h2>
+    <p>L'applicazione Pieno Conveniente è destinata a un pubblico adulto (conducenti di veicoli) e non è rivolta a minori di 14 anni. Il Titolare non raccoglie né tratta consapevolmente dati personali riferiti a minori di 14 anni. Qualora il Titolare venisse a conoscenza della raccolta involontaria di dati di un minore in assenza del consenso dei titolari della responsabilità genitoriale, provvederà alla loro tempestiva cancellazione.</p>
+
+    <h2>12. Link e servizi di terze parti</h2>
+    <p>L'applicazione può contenere collegamenti a siti web o servizi esterni gestiti da soggetti terzi. Il Titolare non è responsabile delle modalità di raccolta e trattamento dei dati personali effettuate da tali soggetti attraverso i rispettivi siti o servizi. Si invita pertanto l'utente a consultare le relative informative sulla privacy.</p>
 
-Data di decorrenza: 26 novembre 2026
-1. Introduzione
+    <h2>13. Modifiche alla presente informativa</h2>
+    <p>Il Titolare si riserva il diritto di modificare o aggiornare la presente Informativa sulla Privacy in qualsiasi momento, anche in seguito a modifiche delle funzionalità dell'applicazione o della normativa applicabile. Le eventuali modifiche saranno pubblicate attraverso la pagina contenente l'informativa, con aggiornamento della data di decorrenza indicata in apertura.</p>
 
-Benvenuto su Pieno Conveniente. L'Applicazione consente di consultare i prezzi dei carburanti e individuare le stazioni di servizio in Italia, utilizzando dati pubblici ufficiali, infrastrutture gestite dal Titolare e servizi di terze parti, anche in modalità offline. Questa Informativa sulla Privacy descrive come Pieno Conveniente (di seguito, l'"App") tratta i dati personali degli utenti. L'App è sviluppata e gestita da Gino Spezzano (di seguito, il "Titolare").
-
-La presente informativa illustra le categorie di dati trattati, le finalità e le modalità del trattamento, i soggetti che possono ricevere i dati e i diritti riconosciuti agli utenti dalla normativa applicabile in materia di protezione dei dati personali.
-2. Titolare del trattamento dei dati personali
-
-Il Titolare del trattamento dei dati personali è Gino Spezzano, sviluppatore e gestore dell'applicazione Pieno Conveniente.
-
-Per qualsiasi richiesta relativa al trattamento dei dati personali o per esercitare i diritti previsti dalla normativa vigente, è possibile contattare il Titolare ai seguenti recapiti:
-
-    Email: pienoconveniente@spezzano.net
-
-    Indirizzo: Via A. Da Messina 17, 87064, Corigliano-Rossano, Cosenza, Italia
-
-3. Oggetto del trattamento
-
-Il Titolare tratta esclusivamente le informazioni necessarie per fornire e gestire le funzionalità dell'App. I dati e le informazioni trattati possono comprendere, a seconda delle funzionalità utilizzate:
-
-    Dati dell'account: informazioni ricevute da Google tramite il servizio di autenticazione, quali indirizzo email, nome, identificativo del provider e immagine del profilo, ove disponibile, oltre all'identificativo univoco dell'account creato dal servizio di autenticazione.
-
-    Dati relativi ai preferiti: identificativi degli impianti di distribuzione carburante (id_impianti) selezionati dagli utenti autenticati per la sincronizzazione tra dispositivi.
-
-    Dati di localizzazione: coordinate geografiche fornite dal dispositivo dell'utente (o posizione selezionata manualmente) utilizzate per individuare l'area geografica di riferimento e scaricare o consultare i dati degli impianti presenti nella zona.
-
-    Dati tecnici dell'installazione: identificativo pseudonimo dell'installazione e informazioni tecniche di rete (incluso l'indirizzo IP) necessarie al funzionamento dell'App, al download dei pacchetti dati aggiornati e alla protezione delle API.
-
-    Dati relativi alle notifiche: token tecnico di registrazione del dispositivo (Firebase Cloud Messaging) necessario per gestire e consegnare le notifiche informative attivate dall'utente.
-
-    Dati forniti tramite feedback e richieste di supporto: contenuto dei messaggi, eventuale indirizzo email di contatto e, per le richieste di supporto, informazioni tecniche quali versione dell'App, sistema operativo, modello del dispositivo e recenti errori tecnici.
-
-Le coordinate geografiche vengono utilizzate esclusivamente per le richieste di ricerca e verifica geografica e non vengono memorizzate nelle tabelle del database dell'applicazione. L'identificativo pseudonimo utilizzato per la gestione delle richieste tecniche non è associato all'account Google dell'utente.
-4. Modalità del trattamento
-
-I dati personali sono trattati mediante strumenti informatici e telematici, con modalità organizzative e logiche strettamente correlate alle finalità indicate nella presente informativa. L'App adotta un'architettura orientata alla minimizzazione: i dati scaricati relativi agli impianti della zona vengono salvati localmente sul dispositivo per consentirne la consultazione anche in assenza di connessione internet.
-
-Il trattamento viene effettuato nel rispetto dei principi di liceità, correttezza, trasparenza, minimizzazione e limitazione della conservazione previsti dal Regolamento (UE) 2016/679 (GDPR). Il Titolare adotta misure tecniche e organizzative adeguate a proteggere i dati personali da accessi non autorizzati, perdita, divulgazione, modifica o distruzione accidentale.
-5. Finalità e base giuridica del trattamento
-
-I dati e le informazioni trattati sono utilizzati esclusivamente per le seguenti finalità:
-
-    Funzionamento dell'applicazione e consultazione offline: consentire il download sul dispositivo dei dati aggiornati dei prezzi e delle stazioni di servizio della zona dai server del Titolare per la consultazione online e offline.
-
-    Consultazione diretta in tempo reale (opzionale): qualora l'utente attivi l'apposita opzione nelle impostazioni e disponga di connessione internet, interrogare direttamente le API pubbliche ufficiali del MIMIT per visualizzare i dati aggiornati in tempo reale.
-
-    Gestione dell'account: consentire la registrazione e l'autenticazione tramite Google e gestire le funzionalità associate all'account.
-
-    Gestione dei preferiti: consentire agli utenti autenticati di salvare e sincronizzare gli identificativi degli impianti di distribuzione selezionati.
-
-    Ricerca geografica: utilizzare le coordinate fornite dall'utente per verificare l'area geografica e ottenere informazioni relative agli impianti presenti nella zona richiesta.
-
-    Gestione delle notifiche: inviare agli utenti che hanno attivato il servizio notifiche comunicazioni informative relative all'aggiornamento dei prezzi e delle medie dei carburanti.
-
-    Assistenza e feedback: ricevere e gestire segnalazioni, suggerimenti e richieste di supporto, utilizzando le informazioni fornite dall'utente e, quando necessario, i dati tecnici allegati alla segnalazione.
-
-    Sicurezza e corretto funzionamento: prevenire utilizzi impropri dell'App, limitare le richieste eccessive (rate limiting) e garantire la disponibilità e la sicurezza dell'infrastruttura.
-
-    Adempimento di obblighi di legge: adempiere agli obblighi previsti dalla normativa applicabile e tutelare i diritti del Titolare.
-
-Il trattamento dei dati necessari alla fornitura delle funzionalità richieste si basa sull'esecuzione del servizio richiesto dall'utente (art. 6, par. 1, lett. b, GDPR). I trattamenti connessi alla sicurezza e alla prevenzione degli utilizzi impropri si basano sul legittimo interesse del Titolare (art. 6, par. 1, lett. f, GDPR). Quando una funzionalità richiede un'autorizzazione di sistema (es. accesso alla posizione GPS o invio di notifiche push), il trattamento avviene sulla base del consenso dell'utente, revocabile in qualsiasi momento dalle impostazioni del dispositivo o dell'App.
-
-L'applicazione non utilizza i dati degli utenti per finalità di marketing, pubblicità comportamentale o profilazione commerciale.
-6. Luogo del trattamento dei dati
-
-I dati personali trattati attraverso l'applicazione sono gestiti mediante infrastrutture informatiche del Titolare e di fornitori esterni che erogano servizi necessari al funzionamento dell'App.
-
-Il database principale dell'applicazione è ospitato su Supabase, nella regione europea eu-west-3 (Parigi, Francia).
-
-Altri servizi esterni utilizzati dall'App possono trattare dati secondo le rispettive infrastrutture e condizioni. Qualora si verifichino trasferimenti di dati personali verso Paesi situati al di fuori dello Spazio Economico Europeo (SEE), questi avverranno nel rispetto delle garanzie previste dal Capo V del Regolamento (UE) 2016/679 (quali decisioni di adeguatezza della Commissione Europea o Clausole Contrattuali Tipo).
-7. Comunicazione e diffusione dei dati
-
-I dati personali non vengono venduti né diffusi dal Titolare per finalità commerciali. Per consentire il funzionamento dell'applicazione, alcuni dati tecnici o di account possono essere comunicati a fornitori esterni di servizi tecnologici e infrastrutturali, nei limiti strettamente necessari all'erogazione delle funzionalità richieste:
-
-    Server del Titolare: per l'erogazione dei pacchetti di dati geografici e dei prezzi aggiornati delle stazioni di servizio.
-
-    Google: per consentire l'autenticazione tramite account Google.
-
-    Supabase: per la gestione dell'autenticazione, l'archiviazione dei dati dell'account e la sincronizzazione degli identificativi degli impianti preferiti.
-
-    Firebase Cloud Messaging (Google): per la gestione e la consegna delle notifiche informative tramite token tecnico del dispositivo.
-
-    OpenFreeMap e OpenStreetMap: per la visualizzazione delle mappe e l'utilizzo dei dati cartografici.
-
-    Nominatim: per le funzionalità di ricerca geografica e geocodifica degli indirizzi.
-
-    MIMIT (Ministero delle Imprese e del Made in Italy): per la consultazione diretta dei dati pubblici relativi ai prezzi dei carburanti e agli impianti di distribuzione, quando l'utente attiva la modalità di interrogazione diretta in tempo reale dal proprio dispositivo.
-
-L'utilizzo di tali servizi comporta la trasmissione delle informazioni tecniche strettamente necessarie alla connessione (incluso l'indirizzo IP del dispositivo) e, quando richiesto dalla funzionalità, delle coordinate geografiche o dei termini di ricerca inseriti dall'utente. I fornitori esterni trattano i dati secondo le proprie condizioni e informative privacy, in qualità di responsabili del trattamento o titolari autonomi.
-8. Conseguenze del rifiuto del conferimento dei dati
-
-Il conferimento dei dati personali è facoltativo, ma necessario nei casi in cui tali dati siano indispensabili per fornire specifiche funzionalità:
-
-    Posizione geografica: l'autorizzazione all'accesso alla posizione del dispositivo consente all'App di individuare automaticamente gli impianti nelle vicinanze. Il mancato rilascio o la revoca di tale autorizzazione non impedisce l'utilizzo dell'App tramite selezione manuale dell'area sulla mappa o ricerca per indirizzo.
-
-    Account Google e sincronizzazione: l'App è utilizzabile liberamente in modalità ospite senza registrazione. Il mancato conferimento dei dati di autenticazione comporta unicamente l'impossibilità di sincronizzare gli impianti preferiti su cloud.
-
-    Supporto: il conferimento di un indirizzo email nelle richieste di supporto è facoltativo; la sua omissione non limita l'uso dell'App ma impedisce al Titolare di inviare una risposta diretta.
-
-9. Diritti dell'interessato
-
-In qualità di interessato, l'utente può esercitare i diritti previsti dagli articoli 15-22 del Regolamento (UE) 2016/679 (GDPR), nei limiti e alle condizioni stabiliti dalla normativa vigente. In particolare, l'utente ha il diritto di:
-
-    ottenere conferma che sia o meno in corso un trattamento di dati personali che lo riguardano e, in tal caso, accedere ai dati e riceverne copia;
-
-    ottenere la rettifica dei dati personali inesatti o l'integrazione di quelli incompleti;
-
-    richiedere la cancellazione dei dati personali, nei casi previsti dalla normativa;
-
-    richiedere la limitazione del trattamento, nei casi previsti;
-
-    ricevere i dati personali forniti al Titolare in un formato strutturato, di uso comune e leggibile da dispositivo automatico, ove applicabile, e richiederne la trasmissione a un altro titolare;
-
-    opporsi al trattamento dei dati personali, nei casi previsti dalla normativa;
-
-    revocare il consenso eventualmente prestato, senza pregiudicare la liceità del trattamento effettuato prima della revoca.
-
-L'utente ha inoltre il diritto di proporre reclamo all'Autorità Garante per la protezione dei dati personali (www.garanteprivacy.it), qualora ritenga che il trattamento dei dati che lo riguardano violi la normativa vigente.
-
-Per esercitare i propri diritti o richiedere informazioni sul trattamento, l'utente può contattare il Titolare all'indirizzo email pienoconveniente@spezzano.net. Il Titolare fornirà riscontro senza ingiustificato ritardo e, comunque, entro un mese dal ricevimento (prorogabile di due mesi in caso di particolare complessità, previa comunicazione all'interessato). L'esercizio dei diritti è gratuito, salvo i casi previsti dall'articolo 12 del GDPR.
-10. Durata del trattamento e cancellazione dell'account
-
-I dati personali sono trattati e conservati per il tempo strettamente necessario al conseguimento delle finalità per cui sono stati raccolti:
-
-<li><strong>Dati dell'account e preferiti:</strong> vengono conservati fino alla richiesta di cancellazione da parte dell'utente. L'utente può eliminare autonomamente e immediatamente il proprio account direttamente dall'App tramite l'apposito pulsante di cancellazione dati nelle impostazioni, oppure seguire la procedura indicata alla pagina <a href="https://lordkorost.github.io/pieno-conveniente/cancellazione_account.html">Cancellazione dell'Account</a> o scrivendo a <a href="mailto:pienoconveniente@spezzano.net">pienoconveniente@spezzano.net</a>. La cancellazione comporta la revoca dell'autorizzazione dell'account Google, l'eliminazione dell'account dal database Supabase e la rimozione definitiva degli identificativi degli impianti preferiti associati; l'App effettua quindi la disconnessione e consente di proseguire l'utilizzo in modalità ospite.</li>
-    Messaggi di feedback e richieste di supporto: sono conservati per il tempo necessario alla gestione della segnalazione e cancellati entro 3 mesi dalla data di invio.
-
-    Dati tecnici di sicurezza e funzionamento: i log tecnici pseudonimi sono conservati per il tempo strettamente necessario a prevenire utilizzi impropri, proteggere l'infrastruttura e garantire la corretta erogazione del servizio.
-
-    Dati di localizzazione: le coordinate utilizzate per le richieste geografiche non vengono memorizzate nelle tabelle del database dell'App. Possono tuttavia essere trattate temporaneamente dai servizi esterni coinvolti nelle richieste, secondo le rispettive politiche di conservazione.
-
-Eventuali dati che debbano essere conservati per adempiere a obblighi di legge o per accertare, esercitare o difendere un diritto in sede giudiziaria saranno mantenuti per il periodo previsto dalla normativa applicabile.
-11. Trattamento dei dati dei minori
-
-L'applicazione Pieno Conveniente è destinata a un pubblico adulto (conducenti di veicoli) e non è rivolta a minori di 14 anni. Il Titolare non raccoglie né tratta consapevolmente dati personali riferiti a minori di 14 anni. Qualora il Titolare venisse a conoscenza della raccolta involontaria di dati di un minore in assenza del consenso dei titolari della responsabilità genitoriale, provvederà alla loro tempestiva cancellazione.
-12. Link e servizi di terze parti
-
-L'applicazione può contenere collegamenti a siti web o servizi esterni gestiti da soggetti terzi. Il Titolare non è responsabile delle modalità di raccolta e trattamento dei dati personali effettuate da tali soggetti attraverso i rispettivi siti o servizi. Si invita pertanto l'utente a consultare le relative informative sulla privacy.
-13. Modifiche alla presente informativa
-
-Il Titolare si riserva il diritto di modificare o aggiornare la presente Informativa sulla Privacy in qualsiasi momento, anche in seguito a modifiche delle funzionalità dell'applicazione o della normativa applicabile. Le eventuali modifiche saranno pubblicate attraverso la pagina contenente l'informativa, con aggiornamento della data di decorrenza indicata in apertura.
 </body>
 </html>
 
